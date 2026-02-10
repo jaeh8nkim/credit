@@ -4,7 +4,7 @@
   Credit Assignment in Policy Gradient
 </h1>
 
-<img width="500" height="339" alt="atpo_overview" src="https://github.com/user-attachments/assets/af1d3c0b-bb9f-4b7d-887f-42aab66ee548" />
+<img width="500" height="339" alt="readme fig 1" src="https://github.com/user-attachments/assets/447dc4f6-6c2c-4a83-b581-48ab829eef3e" />
 
 ### Figure 1. Schematic comparison of the GRPO and ATPO training pipelines.
 
@@ -13,7 +13,7 @@ This enables token-level credit assignment without auxiliary models or additiona
 
 ---
 
-<img width="500" height="438" alt="image" src="https://github.com/user-attachments/assets/9bce60f8-3299-4410-9e5d-a38bbc72cb96" />
+<img width="500" height="438" alt="readme fig 2" src="https://github.com/user-attachments/assets/2ffad551-1829-497a-8959-2e37dd825b28" />
 
 ### Figure 2. Head-averaged attention map from the last transformer layer for a single reasoning trace.
 
@@ -22,7 +22,7 @@ Compressing this region vertically yields a per-token credit score, capturing ho
 
 ---
 
-<img width="500" height="837" alt="fig 2" src="https://github.com/user-attachments/assets/a1280717-1435-4d3c-b1a8-0fe465f34769" />
+<img width="500" height="837" alt="readme fig 3" src="https://github.com/user-attachments/assets/16e298c7-aae9-474b-bd88-a8cba88bfe99" />
 
 ### Figure 3. Token-level credit scores for three reasoning traces of varying length, computed via log-transform, z-score normalization, and sigmoid rescaling. 
 
@@ -31,7 +31,7 @@ Credit distributes non-uniformly according to the semantic progression of each t
 
 ---
 
-<img width="1000" height="262" alt="fig 3" src="https://github.com/user-attachments/assets/ae3bee74-93ee-47c2-9ac0-fa00acb2b4e9" />
+<img width="1000" height="262" alt="readme fig 4" src="https://github.com/user-attachments/assets/ef1e4411-3dcd-4972-9068-f1d3697f7a27" />
 
 ### Figure 4. Training reward (left) and AIME25 evaluation accuracy (avg@8, right) across ablation variants on Qwen3-0.6B.
 
@@ -41,7 +41,7 @@ ATPO with a 0.5 baseline floor maintains competitive accuracy with DAPO while th
 
 ---
 
-<img width="1000" height="262" alt="fig 4" src="https://github.com/user-attachments/assets/b91fc369-c52a-4a7e-b0a6-27d43790d8ea" />
+<img width="1000" height="262" alt="readme fig 5" src="https://github.com/user-attachments/assets/be244552-d576-4bd9-a155-1cec9d32ef55" />
 
 ### Figure 5. Mean completion length during training (left) and at evaluation (right) for the same ablation variants.
 
